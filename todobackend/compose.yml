@@ -1,9 +1,0 @@
-services:
-  postgres:
-    image: 'postgres:latest'
-    environment:
-      - 'POSTGRES_DB=tododb'
-      - 'POSTGRES_PASSWORD=password'
-      - 'POSTGRES_USER=todoadmin'
-    ports:
-      - '5553:5553'
